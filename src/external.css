@@ -1,0 +1,14 @@
+.fadeinCustom
+img{position:absolute;top:0;
+  -webkit-animation-name:fadeCustom;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-duration:8s;
+  animation-name:fadeCustom;
+  animation-iteration-count:infinite;
+  animation-duration:8s
+  }@-webkit-keyframes
+fadeCustom{0%{opacity:0}20%{opacity:1}33%{opacity:1}53%{opacity:0}100%{opacity:0}}@keyframes
+fadeCustom{0%{opacity:0}20%{opacity:1}33%{opacity:1}53%{opacity:0}100%{opacity:0}}.fadeinCustom
+#f1{position:relative}.fadeinCustom
+#f2{-webkit-animation-delay:-6s}.fadeinCustom
+#f3{-webkit-animation-delay:-3s}

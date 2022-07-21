@@ -1,0 +1,105 @@
+/* Theme Name: Hello Elementor Child Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash Template: hello-elementor Author: Elementor Team Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash Description: A plain-vanilla &amp;
+ lightweight theme for Elementor page builder Tags: flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready Version: 2.4.2 Updated: 2021-07-13 14:29:31 */
+ html, body {
+     position: relative;
+     
+}
+ a.active.focus, a.active:focus, a.focus, a:active.focus, a:active:focus, a:focus, button.active.focus, button.active:focus, button.focus, button:active.focus, button:active:focus, button:focus, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus, ul.plus-tabs-nav li {
+     outline: none !important;
+     outline-color: transparent !important;
+     outline-width: 0 !important;
+     outline-style: none !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+}
+ [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=middlemit]:not(:disabled), button:not(:disabled), input, textarea:focus, input:focus, input:active, *:focus, ul.plus-tabs-nav li {
+     outline: none !important;
+     outline-color: transparent !important;
+     outline-width: 0 !important;
+     outline-style: none !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+}
+ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus, [type=text].form-control:focus, [type=password].form-control:focus, [type=email].form-control:focus, [type=tel].form-control:focus, [contenteditable].form-control:focus, .form-control:active, form-control:focus, textarea, ul.plus-tabs-nav li {
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     outline: none;
+     border: 0px solid;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+}
+ .form-control::-ms-expand {
+     background-color: transparent;
+     border: 0;
+     text-shadow: none;
+}
+ .form-control:-moz-focusring {
+     color: transparent;
+     text-shadow: none;
+}
+ .panel-group::-moz-selection {
+     background: transparent;
+}
+ .panel-group::selection {
+     background: transparent;
+}
+ button, ul.plus-tabs-nav li {
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     -webkit-box-ordinal-group: none;
+     -ms-flex-order: none;
+     order: none;
+     outline: 0 !important;
+     outline-color: transparent !important;
+     outline-width: 0 !important;
+     outline-style: none !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+}
+ .enlighter-t-wpcustom {
+     border-radius: 5px !important;
+     border: none !important;
+     padding: 0px !important;
+}
+ div.enlighter {
+     display: block !important;
+     overflow-y: auto;
+     padding: 12px 10px 12px 0 !important;
+}
+ .enlighter-t-wpcustom .enlighter-text {
+     color: #3b454e !important;
+}
+ .enlighter-t-wpcustom.enlighter-linenumbers div.enlighter>div::before {
+     line-height: 21px !important;
+}
+ div.enlighter>div {
+     display: -webkit-box !important;
+     display: -ms-flexbox !important;
+     display: flex !important;
+}
+ div.enlighter>div>div {
+     display: -webkit-box !important;
+     display: -ms-flexbox !important;
+     display: flex !important;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+}
+ div.enlighter>div>div::before {
+     content: none !important;
+}
+ .enlighter-t-wpcustom .enlighter span {
+     -ms-flex-negative: 0;
+     flex-shrink: 0;
+}
+ .custom_table {
+     color: #333;
+}
+ .wp-caption .wp-caption-text {
+     text-align: center;
+}
+ .elementor-share-buttons--shape-circle .elementor-share-btn {
+     margin: 5px;
+}

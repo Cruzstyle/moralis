@@ -1,0 +1,189 @@
+.elementor-69875 .elementor-element.elementor-element-92c85d8 > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){
+    margin-bottom:10px;
+}
+.elementor-69875 .elementor-element.elementor-element-92c85d8 > .elementor-element-populated > .elementor-widget-wrap{
+    padding:0px 0px 0px 0px;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box__front{
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box__back{
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box__back .elementor-flip-box__layer__overlay{
+    background-color:#04183680;
+    text-align:center;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box{
+    height:375px;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box__layer, .elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box__layer__overlay{
+    border-radius:4px;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box__front .elementor-flip-box__layer__overlay{
+    text-align:center;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box__button{
+    margin-center:0;
+    font-family:"Argentum Sans", Sans-serif;
+    font-size:16px;
+    font-weight:400;
+    line-height:20px;
+    color:#FFFFFF;
+    background-color:#21BF96;
+    border-width:0px;
+    border-radius:8px;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box__button:hover{
+    background-color:#1DAC87;
+}
+.elementor-69875 .elementor-element.elementor-element-47510b9 > .elementor-widget-container{
+    box-shadow:0px 3px 12px 0px rgba(4, 24.00000000000004, 54, 0.24);
+}
+.elementor-69875 .elementor-element.elementor-element-eaf6223 .elementor-heading-title{
+    color:#041836;
+    font-size:var( --e-global-typography-3369f2e-font-size );
+    font-weight:var( --e-global-typography-3369f2e-font-weight );
+    line-height:var( --e-global-typography-3369f2e-line-height );
+    letter-spacing:var( --e-global-typography-3369f2e-letter-spacing );
+    word-spacing:var( --e-global-typography-3369f2e-word-spacing );
+}
+.elementor-69875 .elementor-element.elementor-element-eaf6223 > .elementor-widget-container{
+    margin:12px 0px 0px 0px;
+}
+.elementor-69875 .elementor-element.elementor-element-23c16d3 .elementor-widget-container{
+    color:var( --e-global-color-cd5f415 );
+    font-family:var( --e-global-typography-text-font-family ), Sans-serif;
+    font-size:var( --e-global-typography-text-font-size );
+    font-weight:var( --e-global-typography-text-font-weight );
+    line-height:var( --e-global-typography-text-line-height );
+}
+.elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button .elementor-align-icon-right{
+    margin-left:8px;
+}
+.elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button .elementor-align-icon-left{
+    margin-right:8px;
+}
+.elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button{
+    font-family:"Golos", Sans-serif;
+    font-weight:400;
+    fill:var( --e-global-color-d219831 );
+    color:var( --e-global-color-d219831 );
+    background-color:#F2F6FF00;
+    padding:0px 0px 0px 0px;
+}
+.elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button:hover, .elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button:focus{
+    color:#00C3F8;
+}
+.elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button:hover svg, .elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button:focus svg{
+    fill:#00C3F8;
+}
+@media(max-width:1024px){
+    .elementor-69875 .elementor-element.elementor-element-eaf6223 .elementor-heading-title{
+        font-size:var( --e-global-typography-3369f2e-font-size );
+        line-height:var( --e-global-typography-3369f2e-line-height );
+        letter-spacing:var( --e-global-typography-3369f2e-letter-spacing );
+        word-spacing:var( --e-global-typography-3369f2e-word-spacing );
+    }
+    .elementor-69875 .elementor-element.elementor-element-23c16d3 .elementor-widget-container{
+        font-size:var( --e-global-typography-text-font-size );
+        line-height:var( --e-global-typography-text-line-height );
+    }
+}
+@media(max-width:767px){
+    .elementor-69875 .elementor-element.elementor-element-47510b9 .elementor-flip-box{
+        height:375px;
+    }
+    .elementor-69875 .elementor-element.elementor-element-eaf6223 .elementor-heading-title{
+        font-size:var( --e-global-typography-3369f2e-font-size );
+        line-height:var( --e-global-typography-3369f2e-line-height );
+        letter-spacing:var( --e-global-typography-3369f2e-letter-spacing );
+        word-spacing:var( --e-global-typography-3369f2e-word-spacing );
+    }
+    .elementor-69875 .elementor-element.elementor-element-23c16d3 .elementor-widget-container{
+        font-size:var( --e-global-typography-text-font-size );
+        line-height:var( --e-global-typography-text-line-height );
+    }
+}
+/* Start custom CSS for button, class: .elementor-element-4b48f39 */
+.elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button-icon {
+     display: flex;
+}
+ .elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button-icon svg {
+     width: 20px;
+}
+ .elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button-link span svg path {
+     -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+     -o-transition: all 0.3s ease-in-out;
+     -ms-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+}
+ .elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button-link:hover span svg path, .elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button-link:active span svg path, .elementor-69875 .elementor-element.elementor-element-4b48f39 .elementor-button-link:focus span svg path {
+     fill: #00C3F8!important;
+     -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+     -o-transition: all 0.3s ease-in-out;
+     -ms-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+}
+/* End custom CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+     font-family: 'Argentum Sans';
+     font-style: normal;
+     font-weight: normal;
+     font-display: auto;
+     src: url('https://moralis.io/wp-content/uploads/fonts/Argentum-Sans.ttf.eot');
+     src: url('https://moralis.io/wp-content/uploads/fonts/Argentum-Sans.ttf.eot?#iefix') format('embedded-opentype'), url('https://moralis.io/wp-content/uploads/fonts/Argentum-Sans.ttf.woff') format('woff'), url('https://moralis.io/wp-content/uploads/fonts/Argentum-Sans.ttf.svg#ArgentumSans') format('svg');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+     font-family: 'Golos';
+     font-style: normal;
+     font-weight: 400;
+     font-display: auto;
+     src: url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Regular.woff2') format('woff2'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Regular.woff') format('woff'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Regular.ttf') format('truetype');
+}
+ @font-face {
+     font-family: 'Golos';
+     font-style: normal;
+     font-weight: bold;
+     font-display: auto;
+     src: url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Bold.woff2') format('woff2'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Bold.woff') format('woff'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Bold.ttf') format('truetype');
+}
+ @font-face {
+     font-family: 'Golos';
+     font-style: normal;
+     font-weight: 600;
+     font-display: auto;
+     src: url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_DemiBold.woff2') format('woff2'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_DemiBold.woff') format('woff'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_DemiBold.ttf') format('truetype');
+}
+ @font-face {
+     font-family: 'Golos';
+     font-style: normal;
+     font-weight: 800;
+     font-display: auto;
+     src: url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Bold.woff2') format('woff2'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Bold.woff') format('woff'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Bold.ttf') format('truetype');
+}
+ @font-face {
+     font-family: 'Golos';
+     font-style: normal;
+     font-weight: normal;
+     font-display: auto;
+     src: url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Regular.woff2') format('woff2'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Regular.woff') format('woff'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Regular.ttf') format('truetype');
+}
+ @font-face {
+     font-family: 'Golos';
+     font-style: normal;
+     font-weight: 500;
+     font-display: auto;
+     src: url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Medium.woff2') format('woff2'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Medium.woff') format('woff'), url('https://moralis.io/wp-content/uploads/fonts/golos/Golos-Text_Medium.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+ 
