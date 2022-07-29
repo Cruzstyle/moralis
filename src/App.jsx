@@ -202,7 +202,7 @@ const handleMediaQueryChange = (matches) => {
             defaultSelectedKeys={["nftMarket"]}
           >
           <Menu.Item key="nftMarket" onClick={() => setInputValue("explore")} >
-            <NavLink to="/Homepage">  <a href="https://www.flaticon.com/free-icons/homepage" title="homepage icons">Home</a></NavLink>
+            <NavLink to="/Homepage"> <a href="https://www.flaticon.com/free-icons/homepage" title="homepage icons">Home</a></NavLink>
           </Menu.Item>
             <Menu.Item key="nftMarket" onClick={() => setInputValue("explore")} >
               <NavLink to="/NFTMarketPlace">🛒 Explore Market</NavLink>
