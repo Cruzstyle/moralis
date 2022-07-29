@@ -95,7 +95,7 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+  text-rendering: auto;
   line-height: 1.5;
   background-color: white;
 }

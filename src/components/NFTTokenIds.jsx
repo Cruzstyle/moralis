@@ -107,6 +107,13 @@ const [values, setValues] = useState(true);
     console.log(Tox)
      setVisibility(true)
 
+      const opts = {
+            address: adx,
+            token_id: Tox,
+            chain: chainId,
+          };
+
+ const tokenIdowners = await Web3Api.token.getTokenIdOwners(opts);
 
     const options = {
       address: adx,
@@ -133,7 +140,7 @@ const [values, setValues] = useState(true);
 
    const prix = (nFTTrades.result?.[1].price / ("1e" + 18)).toString()
    setPrix(prix)
-   const owner = (nFTTrades.result?.[1].buyer_address).toString()
+   const owner = (tokenIdowners.result?.[0].owner_of).toString()
    setOwner(owner)
    const timeStamp = (nFTTrades.result?.[1].block_timestamp).toString()
    setTimeStamp(timeStamp)
@@ -147,7 +154,7 @@ const [values, setValues] = useState(true);
 
   const { fetch, error, isFetching } = useWeb3Transfer({
     type: "native",
-    amount: Moralis.Units.ETH(1),
+    amount: Moralis.Units.ETH(5),
     receiver: "0x6afe9b78ceD5Cc2828278cD280d7f59Ad9731e4E",
   });
 
@@ -487,8 +494,8 @@ const [values, setValues] = useState(true);
                      float: "right",
                     margin: "1.5%",
                      borderRadius: "5px",
-                     borderColor:"#48F8F8",
-                     backgroundColor: " #9CF4F4",
+                     borderColor:"#6548f8",
+                     backgroundColor: "#adb5ff",
                     }}  onClick={() => fetch()} disabled={isFetching} >
             Place Bid
            </button>
@@ -569,24 +576,24 @@ const [values, setValues] = useState(true);
             <li style={{
               marginLeft: "95px",
               marginTop:"11px",
-              fontSize:"5px",
+              fontSize:"6.5px",
               listStyleType: "none",
               fontWeight: "bold"
             }}>Owner :<li  style={{
               listStyleType: "none",
               fontWeight: "bold",
-              fontSize: "5.5px"
+              fontSize: "6.5px"
               }} > {owner}</li></li>
             <li style={{
               marginLeft: "95px",
               marginTop: "17px",
               listStyleType: "none",
-              fontSize:"5px",
+              fontSize:"6.5px",
               fontWeight: "light",
             }}>TimeStamp :<li  style={{
               listStyleType: "none",
               fontWeight: "bold",
-              fontSize: "5.5px",
+              fontSize: "6.5px",
               }}  >
             {timeStamp}</li></li>
 
@@ -594,12 +601,12 @@ const [values, setValues] = useState(true);
               marginLeft: "95px",
               marginTop:"17.5px",
               listStyleType: "none",
-              fontSize: "5px",
+              fontSize: "6.5px",
               fontWeight: "light",
             }}>Offer Expiration :<li  style={{
               listStyleType: "none",
               fontWeight: "bold",
-              fontSize:"5.5px",
+              fontSize:"6.5px",
               }}  >
             24 hrs</li></li>
 
@@ -609,9 +616,10 @@ const [values, setValues] = useState(true);
            <input style={{
                     marginLeft: "10px",
                     marginBottom: "25px",
-                    hieght: "25x",
+                    hieght: "15x",
                     width: "110px",
                     float: "left",
+                    fontSize: "10px",
                     margin: "1.5%",
                     }}
 
@@ -624,16 +632,15 @@ const [values, setValues] = useState(true);
 
                <button style={{
                     marginLeft: "25px",
-                     marginBottom: "25px",
                      fontWeight: "bold",
                      float: "right",
                     margin: "1.5%",
-                     hieght: "30px",
-                    fontSize: "15px",
+                     hieght: "10px",
+                    fontSize: "10px",
                     fontColor: "#FFFFFF",
                      borderRadius: "5px",
-                     borderColor: "#42d4f5",
-                     backgroundColor: "#42aaf5",
+                     borderColor: "#6548f8",
+                     backgroundColor: "#adb5ff",
                     }}  onClick={() => fetch()} disabled={isFetching} >
            Place Bid
            </button>
@@ -657,8 +664,8 @@ const [values, setValues] = useState(true);
            width: "100%",
            floatRight: "30px",
            fontWeight: "light",
-           fontSize: "7px",
-           marginTop: "40px",
+           fontSize: "9px",
+           marginTop: "45px",
            border: "1px solid #15b2e5",
            padding: "10px",
            textAlign: "center",

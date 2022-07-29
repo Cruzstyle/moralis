@@ -213,7 +213,6 @@ button,select{
 [type=button],[type=submit],button{
     display:inline-block;
     font-weight:400;
-    color:#c36;
     text-align:center;
     white-space:nowrap;
     -webkit-user-select:none;
@@ -221,7 +220,6 @@ button,select{
     -ms-user-select:none;
     user-select:none;
     background-color:transparent;
-    border:1px solid #c36;
     padding:.5rem 1rem;
     font-size:1rem;
     border-radius:3px;

@@ -2525,8 +2525,8 @@ pre.wp-block-verse{
     margin-bottom:1em
 }
 :root{
-    --wp--preset--font-size--normal:16px;
-    --wp--preset--font-size--huge:42px
+    --wp--preset--font-size--normal:12px;
+    --wp--preset--font-size--huge:38px
 }
 :root .has-very-light-gray-background-color{
     background-color:#eee

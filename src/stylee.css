@@ -269,12 +269,12 @@
  button, [type="submit"], [type="button"] {
      display: inline-block;
      font-weight: 400;
-     color: #CC3366;
+     color: #6548f8;
      text-align: center;
      white-space: nowrap;
      user-select: none;
      background-color: transparent;
-     border: 1px solid #CC3366;
+     border: 1px solid #FFFFFF;
      padding: 0.5rem 1rem;
      font-size: 1rem;
      border-radius: 3px;
@@ -285,7 +285,7 @@
 }
  button:hover, button:focus, [type="submit"]:hover, [type="submit"]:focus, [type="button"]:hover, [type="button"]:focus {
      color: #ffffff;
-     background-color: #CC3366;
+     background-color: #6548f8;
      text-decoration: none;
 }
  button:not(:disabled), [type="submit"]:not(:disabled), [type="button"]:not(:disabled) {
