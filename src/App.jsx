@@ -231,7 +231,7 @@ const handleMediaQueryChange = (matches) => {
           <Switch>
         <Route path="/NFTMarketPlace">
         <div style={{ textAlign: "center", fontWeight: "Bold", marginTop: "15px", fontSize:"18px"}}>  <MediaQuery minWidth={1224} onChange={handleMediaQueryChange}> <Latest/></MediaQuery></div>
-        <div style={{ marginLeft:"40px", textAlign: "center", fontWeight: "Bold", marginTop: "35px", fontSize:"9.5px"}}>  <MediaQuery maxWidth={1224} onChange={handleMediaQueryChange}> <Latest/></MediaQuery></div>
+        <div style={{ marginLeft:"40px", textAlign: "center", fontWeight: "Bold", marginTop: "35px", fontSize:"7.5px"}}>  <MediaQuery maxWidth={1224} onChange={handleMediaQueryChange}> <Latest/></MediaQuery></div>
         </Route>
           </Switch>
 
@@ -328,7 +328,7 @@ const handleMediaQueryChange = (matches) => {
 };
 export const Latest = () =>(
   <div>
-  <Text style={{ display: "block", textAlign: "center", fontSize: "22px", }}>
+  <Text style={{ display: "block", textAlign: "center", fontSize: "20px", }}>
     <Text> Top collections over </Text>
     <a
       target="_blank"
