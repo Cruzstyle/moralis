@@ -44,6 +44,12 @@ export const networkCollections = {
     },
     {
       image:
+        "https://lh3.googleusercontent.com/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI=s0",
+       name: "Mutant Ape Yacht Club",
+      addrs: "0x60E4d786628Fea6478F785A6d7e704777c86a7c6",
+    },
+    {
+      image:
         "https://lh3.googleusercontent.com/ipAyQg6Xlgvwxma0Qp0a1gqdsZepRvHR4ZLsPN3mOFvIR1aznNiWFEgba2gcVqQwJS5BoJilLPrA2DRq2DVOnwKc3tDovmEdjR4qb-0=s130",
       name: "PROOF Collective",
       addrs: "0x08D7C0242953446436F34b4C78Fe9da38c73668d",
